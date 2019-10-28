@@ -114,7 +114,7 @@ public class player : MonoBehaviour
             anim.SetBool("Ground", true);
             anim.SetInteger("State", 0);
 
-            if (Input.GetKey(KeyCode.UpArrow))
+            if (Input.GetKeyDown(KeyCode.UpArrow))
             {
                 anim.SetBool("Ground", false);
                 anim.SetInteger("State", 2);
